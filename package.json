@@ -1,1 +1,29 @@
-
+{
+  "name": "ondc-seller-reference-app",
+  "version": "1.0.0",
+  "description": "ONDC reference app seller service",
+  "main": "app.js",
+  "repository": "https://github.com/Open-network-for-digital-commerce/ondc-seller-reference-app.git",
+  "author": "ONDC",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "debug": "nodemon src/app.js",
+    "start": "node src/app.js"
+  }
+}
